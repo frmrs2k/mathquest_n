@@ -1,0 +1,41 @@
+[gd_scene format=3 uid="uid://bocls55n7bc1y"]
+
+[ext_resource type="Texture2D" uid="uid://4apq1fbfsbfr" path="res://art/background/tutorial_end.png" id="1_vctl1"]
+[ext_resource type="Texture2D" uid="uid://d1fpwe0m8d5ub" path="res://art/items/circle_bs.png" id="2_h0iwj"]
+
+[sub_resource type="SystemFont" id="SystemFont_pn6sb"]
+
+[node name="tutorial_end" type="Control" unique_id=1773382710]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="background" type="TextureRect" parent="." unique_id=1379892268]
+layout_mode = 0
+offset_left = -1.0
+offset_top = 1.0
+offset_right = 612.0
+offset_bottom = 1065.0
+texture = ExtResource("1_vctl1")
+expand_mode = 1
+
+[node name="bubblespeach" type="TextureRect" parent="." unique_id=906431564]
+layout_mode = 0
+offset_left = -32.0
+offset_top = 73.0
+offset_right = 455.0
+offset_bottom = 884.0
+texture = ExtResource("2_h0iwj")
+expand_mode = 1
+
+[node name="instructions" type="Label" parent="." unique_id=697826785]
+layout_mode = 0
+offset_left = 78.0
+offset_top = 415.0
+offset_right = 356.0
+offset_bottom = 550.0
+theme_override_colors/font_color = Color(0.011764706, 0.011764706, 0.011764706, 1)
+theme_override_fonts/font = SubResource("SystemFont_pn6sb")
+theme_override_font_sizes/font_size = 22
+text = "cwdfc"
